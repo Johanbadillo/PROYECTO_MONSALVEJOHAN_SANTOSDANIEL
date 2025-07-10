@@ -1,0 +1,16 @@
+@font-face {
+    font-family: letraFuente;
+    src: url(./../fonts/MYRIADPRO-REGULAR.OTF);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(./../img/fondo.png);
+}
+
+.logo{
+    text-align: center;
+    position: relative;
+    top: 40vh;
+}
