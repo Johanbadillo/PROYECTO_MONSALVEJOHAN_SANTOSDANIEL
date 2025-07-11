@@ -31,7 +31,7 @@ body{
     position: relative;
     opacity: 0;
     top: 40vh;
-    animation: inicio2 3s ease;
+    animation: inicio2 6s ease;
 }
 
 .cuadroblanco{
@@ -138,7 +138,7 @@ body{
     display: flex;
     padding: 20px;
     flex-direction: column;
-    animation: inicio 2s;
+    animation: inicio 4s;
     opacity: 0;
 }
 
@@ -184,7 +184,7 @@ body{
     25%{
         opacity: 1;
     }
-    75%{
+    99%{
         opacity: 1;
     }
     100%{
@@ -196,7 +196,7 @@ body{
     0%{
         opacity: 1;
     }
-    99%{
+    90%{
         opacity: 1;
     }
     100%{
