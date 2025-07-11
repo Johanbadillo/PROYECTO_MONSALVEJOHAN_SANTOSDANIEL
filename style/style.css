@@ -26,6 +26,14 @@ body{
     animation: desaparecer 4s ;
 }
 
+.logo2{
+    text-align: center;
+    position: relative;
+    opacity: 0;
+    top: 40vh;
+    animation: inicio2 3s ease;
+}
+
 .cuadroblanco{
     background-color: white;
     margin-left: auto;
@@ -98,18 +106,21 @@ body{
     font-family: letraLigth
 }
 
-.submit-button {
+.cuadroblanco a {
     padding: 0.93vh 1.04vw;
     background-color: #ff7300; 
     color: white;
     border: none;
     border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    align-content: center;
     cursor: pointer;
     width: 17.50vw;
     height: 6.48vh;
     margin: 3vh auto 1vh auto;
     font-size: 1.56rem;
-    text-align: center;
 }
 
 .problemas{
@@ -124,12 +135,13 @@ body{
     width: 48.75vw;
     height: 50.83vh;
     border-radius: 67px;
-    display: none;
+    display: flex;
     padding: 20px;
     flex-direction: column;
-    animation: cuadroAparecer 0.2s;
+    animation: inicio 2s;
     opacity: 0;
 }
+
 
 .CuadroInicio img.media {
     width: 5.36vw;
@@ -163,6 +175,21 @@ body{
     text-align: center;
     margin: 0;
     opacity: 60%;
+}
+
+@keyframes inicio2 {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 @keyframes inicio {
