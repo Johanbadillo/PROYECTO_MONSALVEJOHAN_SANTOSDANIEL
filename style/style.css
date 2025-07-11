@@ -7,9 +7,6 @@
     src: url(./../fonts/MyriadPro-Light.otf);
 }
 
-
-
-
 body{
     margin: 0;
     padding: 0;
@@ -43,6 +40,15 @@ body{
     animation: cuadroAparecer 4s;
 }
 
+#toggle-submit:checked ~ .cuadroblanco {
+    display: none;
+}
+
+#toggle-submit:checked ~ .CuadroInicio{
+    display: flex;
+    animation: inicio 2s;
+}
+
 .cuadroblanco img.media {
     width: 5.36vw;
     height: 10.74vh;
@@ -55,8 +61,6 @@ body{
     font-family: letraFuente;
     font-size: 2.5rem;
     text-align: center;
-    padding-right: 10vw;
-    padding-left: 10vw;
     margin: 0;
     margin-bottom: 20px
 }
@@ -94,18 +98,18 @@ body{
     font-family: letraLigth
 }
 
-.cuadroblanco button {
+.submit-button {
     padding: 0.93vh 1.04vw;
     background-color: #ff7300; 
     color: white;
     border: none;
     border-radius: 25px;
-    font-size: 1rem;
     cursor: pointer;
     width: 17.50vw;
     height: 6.48vh;
     margin: 3vh auto 1vh auto;
     font-size: 1.56rem;
+    text-align: center;
 }
 
 .problemas{
@@ -113,9 +117,65 @@ body{
     font-family: letraLigth
 }
 
+.CuadroInicio {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48.75vw;
+    height: 50.83vh;
+    border-radius: 67px;
+    display: none;
+    padding: 20px;
+    flex-direction: column;
+    animation: cuadroAparecer 0.2s;
+    opacity: 0;
+}
 
+.CuadroInicio img.media {
+    width: 5.36vw;
+    height: 10.74vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
 
+.CuadroInicio img {
+    width: auto;
+    height: 10.74vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
 
+.CuadroInicio h1{
+    font-family: letraFuente;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px
+}
+
+.CuadroInicio p{
+    font-family: letraLigth;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+    opacity: 60%;
+}
+
+@keyframes inicio {
+    0%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 
 @keyframes cuadroAparecer {
     0%{
@@ -128,7 +188,6 @@ body{
         opacity: 1;
     }
 }
-
 
 @keyframes desaparecer {
     0%{ 
