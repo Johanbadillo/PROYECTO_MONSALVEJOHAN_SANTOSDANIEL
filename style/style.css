@@ -18,6 +18,7 @@ body{
     background-size: cover;
     justify-content: center;
     align-items: center;
+    background-position: center;
 }
 
 .logo{
@@ -36,8 +37,10 @@ body{
     height: 70.46vh;
     border-radius: 67px;
     display: flex;
-    padding: 20px; 
+    padding: 20px;
+    opacity: 1; 
     flex-direction: column;
+    animation: cuadroAparecer 4s;
 }
 
 .cuadroblanco img.media {
@@ -70,8 +73,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 3.96vw;
-    height: 2.31vh;
+    margin: 1vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cuadroblanco input {
@@ -85,14 +89,45 @@ body{
 }
 
 .cuadroblanco label{
-    margin-left: 8vw;
     opacity: 80%;
     font-size: 1.56rem;
     font-family: letraLigth
 }
 
+.cuadroblanco button {
+    padding: 0.93vh 1.04vw;
+    background-color: #ff7300; 
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 17.50vw;
+    height: 6.48vh;
+    margin: 3vh auto 1vh auto;
+    font-size: 1.56rem;
+}
+
+.problemas{
+    font-size: 0.78vw;
+    font-family: letraLigth
+}
 
 
+
+
+
+@keyframes cuadroAparecer {
+    0%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 
 @keyframes desaparecer {
