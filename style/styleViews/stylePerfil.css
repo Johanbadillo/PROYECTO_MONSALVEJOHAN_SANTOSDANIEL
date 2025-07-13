@@ -60,7 +60,9 @@ header .perfil{
 }
 
 .text1{
-    text-align: center;
+    text-align: left;
+    margin-left: 10vw;
+    margin-top: 10vh;    
 }
 
 .text1 h1 {

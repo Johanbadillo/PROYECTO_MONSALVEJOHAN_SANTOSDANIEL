@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Indicadores</title>
     <link rel="stylesheet" href="./../style/styleViews/stylePerfil.css">
 </head>
-<body>
 
+<body>
     <header>
         <div class="container">
-                <a href="./add.html">
-                    <img src="./../img/add.svg" alt="">
-                    <span>Añadir</span>
-                </a>
-                <a href="./perfil.html">
-                    <img src="./../img/refresh.svg" alt="">
-                    <span>Refrescar</span>
-                </a>
-                <a href="./delete.html">
-                    <img src="./../img/delete.svg" alt="">
-                    <span>Eliminar</span>
-                </a>
-                <a href="./../index.html" class="logo">
-                    <img src="./../img/kario sin kairo.svg" alt="">
-                </a>
-                <a href="./report.html">
-                    <img src="./../img/report.svg" alt="">
-                    <span>Reportar</span>
-                </a>
-                <a href="./help.html">
-                    <img src="./../img/help.svg" alt="">
-                    <span>Ayuda</span>
-                </a>
+            <a href="./add.html">
+                <img src="./../img/add.svg" alt="">
+                <span>Añadir</span>
+            </a>
+            <a href="./perfil.html">
+                <img src="./../img/refresh.svg" alt="">
+                <span>Refrescar</span>
+            </a>
+            <a href="./delete.html">
+                <img src="./../img/delete.svg" alt="">
+                <span>Eliminar</span>
+            </a>
+            <a href="principal.html" class="logo">
+                <img src="./../img/kario sin kairo.svg" alt="">
+            </a>
+            <a href="./report.html">
+                <img src="./../img/report.svg" alt="">
+                <span>Reportar</span>
+            </a>
+            <a href="./help.html">
+                <img src="./../img/help.svg" alt="">
+                <span>Ayuda</span>
+            </a>
             <img src="./../img/config.svg" alt="" class="config">
             <img src="./../img/noti.svg" alt="" class="noti">
-            <img src="./../img/perfil.png" alt="" class="perfil">
+            <a href="./perfil.html">
+                <img src="./../img/perfil.png" alt="" class="perfil">
+            </a>
         </div>
     </header>
-    <section class="Contenido">
-        <div class="text1">
-            <h1>Panel de Indicadores</h1>
-                <p>Aqui puedes visualizar los indicadores propuestos y añadirlos por tu equipo de trabajo.</p>
-        </div>
-
-    </section>
+    <main>
+        <h1 class="textosuperior">
+            Mi Perfil
+        </h1>
+        <section class="contenidoPerfil">
+            <div class="fotoperfil">
+                <img src=".././img/perfil.png" alt="">
+            </div>
+            <div class="datosPerfil">
+                <div class="nombre">
+                    <h3>Nombre Completo</h3>
+                    <p>Pedro Felipe Gomez</p>
+                </div>
+                <div class="fNacimiento">
+                    <h3>Fecha de Nacimiento</h3>
+                    <p>10/01/25</p>
+                </div>
+                <div class="cedula">
+                    <h3>Cedula de Ciudadania</h3>
+                    <p>123456789</p>
+                </div>
+                <div class="numCel">
+                    <h3>Número de Celular</h3>
+                    <p>1234567890</p>
+                </div>
+                <button class="actualizar">Actualizar Datos</button>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
