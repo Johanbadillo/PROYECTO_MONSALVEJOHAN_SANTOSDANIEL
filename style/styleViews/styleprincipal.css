@@ -19,6 +19,7 @@ body {
 }
 
 img {
+    background-color: white;
     height: 5vh;
     width: 3vw;
 }
@@ -30,10 +31,12 @@ header {
     top: 0;
     height: 10vh;
     font-size: 2vw;
+    z-index: 1000;
 }
 
 header .container {
     display: grid;
+    background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto;
     gap: 1vw;
     align-items: center;
@@ -42,25 +45,37 @@ header .container {
     margin-right: 1vw;
 }
 
+
+
+.container{
+    background-color: white;
+}
+
 header a:hover {
+    background-color: white;
     color: orange;
     transform: translateY(-2px);
 }
 
 header a{
+    background-color: white;
     text-decoration: none;
 }
 
 header .logo{
+    background-color: white;
     text-align: center;
 }
 
 header .perfil{
+    background-color: white;
     height: auto;
 }
 
 .text1{
     text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
 }
 
 .text1 h1 {
@@ -80,3 +95,49 @@ header .perfil{
     opacity: 70%;
 }
 
+.table-header {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 1vw;
+    margin-left: 2vw;
+    margin-left: 2vw;
+    margin-right: 8vw;
+}
+
+.Encabezado {
+    font-size: 1.4vw;
+    font-family: letraLigth, sans-serif;
+    text-align: center;
+}
+
+.table-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    margin-left: 3vw;
+    margin-right: 8vw;
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 1vw;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 1vw;
+    transition: all 0.3s ease;
+}
+
+.table-row:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-cell {
+    font-size: 1.4vw;
+    font-family: letraLigth, sans-serif;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
