@@ -60,6 +60,7 @@ header a:hover {
 header a{
     background-color: white;
     text-decoration: none;
+    color: black;
 }
 
 header .logo{
@@ -101,7 +102,7 @@ header .perfil{
     gap: 1vw;
     margin-left: 2vw;
     margin-left: 2vw;
-    margin-right: 8vw;
+    margin-right: 3vw;
 }
 
 .Encabezado {
@@ -115,7 +116,7 @@ header .perfil{
     flex-direction: column;
     gap: 2.5vh;
     margin-left: 3vw;
-    margin-right: 8vw;
+    margin-right: 3vw;
 }
 
 .table-row {
@@ -140,4 +141,39 @@ header .perfil{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.table-row img{
+    height: 6vh;
+    width: auto;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+    gap: 1vw; 
+}
+
+.btn-add {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.btn-add a {
+    background-color: #ff7221;
+    color: white;
+    font-size: 1.5vw;
+    font-family: letraLigth, sans-serif;
+    padding: 2vh 2.5vw 2vh 2.5vw;
+    border-radius: 34px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-add a:hover {
+    background-color: var(--color-orange-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px var(--color-shadow);
 }
