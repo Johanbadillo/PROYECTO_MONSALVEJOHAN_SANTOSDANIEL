@@ -124,7 +124,7 @@ header .perfil{
     grid-template-columns: repeat(9, 1fr);
     gap: 1vw;
     border: 1px solid black;
-    border-radius: 18px;
+    border-radius: 34px;
     padding: 1vw;
     transition: all 0.3s ease;
 }
@@ -173,7 +173,6 @@ header .perfil{
 }
 
 .btn-add a:hover {
-    background-color: var(--color-orange-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px var(--color-shadow);
+    transform: translateY(-5px);
 }
+
