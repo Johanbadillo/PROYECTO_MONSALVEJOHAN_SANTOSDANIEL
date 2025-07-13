@@ -59,3 +59,26 @@ header .perfil{
     height: auto;
 }
 
+.text1{
+    text-align: center;
+}
+
+.text1 h1 {
+    font-size: 2.5vw;
+    font-family: letraFuente, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+}
+
+.text1 p{
+    font-size: 1.5vw;
+    font-family: letraLigth, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    opacity: 70%;
+}
+
+
+
