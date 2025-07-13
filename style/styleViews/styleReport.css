@@ -1,0 +1,82 @@
+@font-face {
+    font-family: letraFuente;
+    src: url(./../fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: letraLigth;
+    src: url(./../fonts/MyriadPro-Light.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: letraFuente;
+    background-color: white;
+}
+
+img {
+    height: 5vh;
+    width: 3vw;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    font-size: 2vw;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto;
+    gap: 1vw;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 1vw;
+}
+
+header a:hover {
+    color: orange;
+    transform: translateY(-2px);
+}
+
+header a{
+    text-decoration: none;
+}
+
+header .logo{
+    text-align: center;
+}
+
+header .perfil{
+    height: auto;
+}
+
+.text1{
+    text-align: center;
+}
+
+.text1 h1 {
+    font-size: 2.5vw;
+    font-family: letraFuente, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+}
+
+.text1 p{
+    font-size: 1.5vw;
+    font-family: letraLigth, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    opacity: 70%;
+}
+
