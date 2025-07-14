@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    opacity: 100%;
+}
+.confirmacion {
+    background-color: rgb(255, 255, 255);
+    padding: 2vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 55vh;
+    height: 25vh;
+}
+
+.confirmacion p {
+    font-size: 2vw;
+}
+
+.confirmacion a {
+    text-decoration: none;
+    padding: 1vw 2vw;
+    border-radius: 8px;
+    margin: 0 1.5vw;
+    font-size: 1.2vw;
+}
+
+.cancel {
+    background-color: #d3d3d3;
+    color: #333;
+}
+
+.accept {
+    background-color: #ff6200;
+    color: white;
+}
