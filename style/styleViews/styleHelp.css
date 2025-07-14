@@ -2,6 +2,7 @@
     font-family: letraFuente;
     src: url(./../fonts/MYRIADPRO-REGULAR.OTF);
 }
+
 @font-face {
     font-family: letraLigth;
     src: url(./../fonts/MyriadPro-Light.otf);
@@ -47,7 +48,7 @@ header .container {
 
 
 
-.container{
+.container {
     background-color: white;
 }
 
@@ -57,23 +58,23 @@ header a:hover {
     transform: translateY(-2px);
 }
 
-header a{
+header a {
     background-color: white;
     text-decoration: none;
     color: black;
 }
 
-header .logo{
+header .logo {
     background-color: white;
     text-align: center;
 }
 
-header .perfil{
+header .perfil {
     background-color: white;
     height: auto;
 }
 
-.text1{
+.text1 {
     text-align: center;
     margin-top: 3vh;
     margin-bottom: 8vh;
@@ -87,11 +88,49 @@ header .perfil{
     margin-top: 1.5vh;
 }
 
-.text1 p{
+.text1 p {
     font-size: 1.5vw;
     font-family: letraLigth, sans-serif;
     font-weight: lighter;
     margin-bottom: 1.5vh;
     margin-top: 1.5vh;
     opacity: 70%;
+}
+
+.cuadroBuscador {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    height: 4.5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lupa {
+    flex-grow: 1;
+    height: 5vh;
+    background: linear-gradient(to right, #f5a623, #f7e4bc);
+    border-radius: 12px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.lupa img {
+    position: absolute;
+    left: 1vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5vw;
+    height: 3.5vh;
+    background-color: transparent;
+}
+
+.cuadroBuscador button{
+    margin-left: 1.5vw;
+    width: 8vw;
+    height: 5vh;
+    background-color: #666;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
 }
