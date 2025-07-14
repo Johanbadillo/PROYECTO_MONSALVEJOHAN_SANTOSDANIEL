@@ -1,10 +1,10 @@
 @font-face {
     font-family: letraFuente;
-    src: url(./../fonts/MYRIADPRO-REGULAR.OTF);
+    src: url(../../fonts/MYRIADPRO-REGULAR.OTF);
 }
 @font-face {
-    font-family: letraLigth;
-    src: url(./../fonts/MyriadPro-Light.otf);
+    font-family: letraLight;
+    src: url(../../fonts/MyriadPro-Light.otf);
 }
 
 * {
@@ -60,6 +60,7 @@ header .perfil{
 }
 
 main {
+    font-family: letraFuente;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -111,25 +112,44 @@ img{
     margin-top: 20px;
 }
 
-.nombre{
-    flex: 1 1 45%;
-}
-
-.fNacimiento{
-    flex: 1 1 45%;
-}
-
-.cedula{
-    flex: 1 1 45%;
-}
-
-.numCel{
+.datosPerfil .nombre, .fNacimiento, .cedula, .numCel{
     flex: 1 1 45%;
 }
 
 .contenidoPerfil button{
     margin-top: 30px;
     background-color: #535353;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contraseña{
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contraseña h3 {
+    font-family: letraFuente;
+    text-align: center;
+}
+
+.contraseña p{
+    font-family: letraLight;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.contraseña button{
+    display: block;
+    margin: 0 auto;
+    background-color: #555;
     color: white;
     border: none;
     padding: 10px 20px;
