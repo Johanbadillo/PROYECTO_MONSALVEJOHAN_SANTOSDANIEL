@@ -45,11 +45,12 @@
         <form class="formulario">
             <div class="grupo">
                 <label>Ingrese el indicador:</label>
-                <input type="text" placeholder="Ingrese el indicador">
+                <input type="text" placeholder="Ingrese el indicador" required>
             </div>
             <div class="grupo" id="categoria">
                 <label>Indica la categoría:<span class="indicador"></span></label>
                 <select>
+                    <option disabled selected>Seleccione una opción</option>
                     <option>Bajo</option>
                     <option>Medio</option>
                     <option>Alto</option>
@@ -57,16 +58,18 @@
             </div>
             <div class="grupo" id="formula">
                 <label>Seleccione la Fórmula que se utilizará:</label>
-                <select>
+                <select required>
+                    <option disabled selected>Seleccione una opción</option>
                     <option>Met.Ágil</option>
                     <option>Met.Fibo</option>
-                    <option selected>N/A</option>
+                    <option>N/A</option>
                     <option>Met.Expo</option>
                 </select>
             </div>
             <div class="grupo" id="area">
                 <label>Seleccione Área de designación:</label>
                 <select>
+                    <option disabled selected>Seleccione una opción</option>
                     <option>Área designada</option>
                     <option>Producción</option>
                     <option>Marketing</option>
@@ -98,8 +101,8 @@
             </div>
         </div>
         <div class="btn-delete">
-            <a href="" class="cancelacion" id="cancelacion">Cancelar</a>
-            <a href="">Añadir</a>
+            <a href="./add.html" class="cancelacion" id="cancelacion">Cancelar</a>
+            <a href="./confirmacionAdd.html">Añadir</a>
         </div>
     </section>
 
