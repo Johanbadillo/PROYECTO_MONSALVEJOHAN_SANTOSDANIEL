@@ -19,6 +19,7 @@ body {
 }
 
 img {
+    background-color: white;
     height: 5vh;
     width: 3vw;
 }
@@ -30,10 +31,12 @@ header {
     top: 0;
     height: 10vh;
     font-size: 2vw;
+    z-index: 1000;
 }
 
 header .container {
     display: grid;
+    background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto;
     gap: 1vw;
     align-items: center;
@@ -42,25 +45,38 @@ header .container {
     margin-right: 1vw;
 }
 
+
+
+.container{
+    background-color: white;
+}
+
 header a:hover {
+    background-color: white;
     color: orange;
     transform: translateY(-2px);
 }
 
 header a{
+    background-color: white;
     text-decoration: none;
+    color: black;
 }
 
 header .logo{
+    background-color: white;
     text-align: center;
 }
 
 header .perfil{
+    background-color: white;
     height: auto;
 }
 
 .text1{
     text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
 }
 
 .text1 h1 {
@@ -79,4 +95,3 @@ header .perfil{
     margin-top: 1.5vh;
     opacity: 70%;
 }
-

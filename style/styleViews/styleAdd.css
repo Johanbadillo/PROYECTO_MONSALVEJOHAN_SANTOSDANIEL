@@ -112,6 +112,7 @@ header .perfil{
     font-size: 1.5vw;
     color: #333333;
     margin-bottom: 2vh;
+    font-family: letraLigth, sans-serif;
 }
 
 
@@ -123,8 +124,10 @@ textarea {
     border: 1px solid #000000;
     border-radius: 4px;
     font-size: 1.1vw;
-
+    background-color: white;
 }
+
+
 
 textarea {
     height: 8vw;
@@ -173,6 +176,9 @@ textarea {
     margin-right: 20vw;
 
 }
+.manejo{
+    margin: 1vw;
+}
 
 .listos {
     display: flex;
@@ -180,8 +186,8 @@ textarea {
 }
 
 .listos input{
-    width: 5vw;
-    margin: 0.5vw;
+    width: 2vw;
+    height: 2vh;
 }
 
 .listos label {
