@@ -146,6 +146,7 @@ header .perfil{
 .table-row img{
     height: 6vh;
     width: auto;
+    background-color: transparent;
 }
 
 .row-container {
@@ -176,3 +177,29 @@ header .perfil{
     transform: translateY(-5px);
 }
 
+.paco {
+    display: none;
+}
+
+.paco:checked + .row-container .table-row {
+    background-color: #00000027;
+    border: 2px solid #00000027;
+    color: #3a3a3a49;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.paco + .row-container .hamburg {
+    display: block;
+}
+
+.paco:checked + .row-container .hamburg {
+    display: none;
+}
+
+.paco + .row-container .alt {
+    display: none;
+}
+
+.paco:checked + .row-container .alt {
+    display: block;
+}
