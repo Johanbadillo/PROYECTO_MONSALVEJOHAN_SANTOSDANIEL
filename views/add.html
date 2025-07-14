@@ -7,32 +7,31 @@
     <link rel="stylesheet" href="./../style/styleViews/styleAdd.css">
 </head>
 <body>
-
     <header>
         <div class="container">
-                <a href="./add.html">
-                    <img src="./../img/add.svg" alt="">
-                    <span>Añadir</span>
-                </a>
-                <a href="./add.html">
-                    <img src="./../img/refresh.svg" alt="">
-                    <span>Refrescar</span>
-                </a>
-                <a href="./delete.html">
-                    <img src="./../img/delete.svg" alt="">
-                    <span>Eliminar</span>
-                </a>
-                <a href="./../index.html" class="logo">
-                    <img src="./../img/kario sin kairo.svg" alt="">
-                </a>
-                <a href="./report.html">
-                    <img src="./../img/report.svg" alt="">
-                    <span>Reportar</span>
-                </a>
-                <a href="./help.html">
-                    <img src="./../img/help.svg" alt="">
-                    <span>Ayuda</span>
-                </a>
+            <a href="./add.html">
+                <img src="./../img/add.svg" alt="">
+                <span>Añadir</span>
+            </a>
+            <a href="./add.html">
+                <img src="./../img/refresh.svg" alt="">
+                <span>Refrescar</span>
+            </a>
+            <a href="./delete.html">
+                <img src="./../img/delete.svg" alt="">
+                <span>Eliminar</span>
+            </a>
+            <a href="./principal.html" class="logo">
+                <img src="./../img/kario sin kairo.svg" alt="">
+            </a>
+            <a href="./report.html">
+                <img src="./../img/report.svg" alt="">
+                <span>Reportar</span>
+            </a>
+            <a href="./help.html">
+                <img src="./../img/help.svg" alt="">
+                <span>Ayuda</span>
+            </a>
             <img src="./../img/config.svg" alt="" class="config">
             <img src="./../img/noti.svg" alt="" class="noti">
             <img src="./../img/perfil.png" alt="" class="perfil">
@@ -40,9 +39,72 @@
     </header>
     <section class="Contenido">
         <div class="text1">
-            <h1>Panel de Indicadores</h1>
-                <p>Aqui puedes visualizar los indicadores propuestos y añadirlos por tu equipo de trabajo.</p>
+            <h1>Añadir Elementos Nuevos</h1>
+            <p>Aqui puedes añadir nuevos elementos de los que quieras gestionar.</p>
+        </div>
+        <form class="formulario">
+            <div class="grupo">
+                <label>Ingrese el indicador:</label>
+                <input type="text" placeholder="Ingrese el indicador" required>
+            </div>
+            <div class="grupo" id="categoria">
+                <label>Indica la categoría:<span class="indicador"></span></label>
+                <select>
+                    <option disabled selected>Seleccione una opción</option>
+                    <option>Bajo</option>
+                    <option>Medio</option>
+                    <option>Alto</option>
+                </select>
+            </div>
+            <div class="grupo" id="formula">
+                <label>Seleccione la Fórmula que se utilizará:</label>
+                <select required>
+                    <option disabled selected>Seleccione una opción</option>
+                    <option>Met.Ágil</option>
+                    <option>Met.Fibo</option>
+                    <option>N/A</option>
+                    <option>Met.Expo</option>
+                </select>
+            </div>
+            <div class="grupo" id="area">
+                <label>Seleccione Área de designación:</label>
+                <select>
+                    <option disabled selected>Seleccione una opción</option>
+                    <option>Área designada</option>
+                    <option>Producción</option>
+                    <option>Marketing</option>
+                    <option>Ventas</option>
+                    <option>Desarrollo</option>
+                </select>
+            </div>
+            <div class="grupo" id="inicio">
+                <label>Ingrese la fecha de inicio:</label>
+                <input type="date" value="">
+            </div>
+            <div class="grupo" id="final">
+                <label>Ingrese la fecha de finalización:</label>
+                <input type="date" value="">
+            </div>
+            <div class="grupo" id="indi">
+                <label>Descripción del indicador:</label>
+                <textarea placeholder="Descripción"></textarea>
+            </div>
+        </form>
+        <div class="consentimientos">
+            <div class="listos">
+                <input type="checkbox">
+                <label>Nos autoriza el uso de la información proporcionada</label>
+            </div>
+            <div class="listos">
+                <input type="checkbox" class="manejo">
+                <label>He leído las políticas de tratamiento de datos y estoy de acuerdo en compartir mi información.</label>
+            </div>
+        </div>
+        <div class="btn-delete">
+            <a href="./add.html" class="cancelacion" id="cancelacion">Cancelar</a>
+            <a href="./confirmacionAdd.html">Añadir</a>
         </div>
     </section>
+
 </body>
 </html>

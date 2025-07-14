@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Indicadores</title>
     <link rel="stylesheet" href="./../style/styleViews/styleHelp.css">
 </head>
+
 <body>
 
     <header>
         <div class="container">
-                <a href="./add.html">
-                    <img src="./../img/add.svg" alt="">
-                    <span>Añadir</span>
-                </a>
-                <a href="./help.html">
-                    <img src="./../img/refresh.svg" alt="">
-                    <span>Refrescar</span>
-                </a>
-                <a href="./delete.html">
-                    <img src="./../img/delete.svg" alt="">
-                    <span>Eliminar</span>
-                </a>
-                <a href="./../index.html" class="logo">
-                    <img src="./../img/kario sin kairo.svg" alt="">
-                </a>
-                <a href="./report.html">
-                    <img src="./../img/report.svg" alt="">
-                    <span>Reportar</span>
-                </a>
-                <a href="./help.html">
-                    <img src="./../img/help.svg" alt="">
-                    <span>Ayuda</span>
-                </a>
+            <a href="./add.html">
+                <img src="./../img/add.svg" alt="">
+                <span>Añadir</span>
+            </a>
+            <a href="./help.html">
+                <img src="./../img/refresh.svg" alt="">
+                <span>Refrescar</span>
+            </a>
+            <a href="./delete.html">
+                <img src="./../img/delete.svg" alt="">
+                <span>Eliminar</span>
+            </a>
+            <a href="./principal.html" class="logo">
+                <img src="./../img/kario sin kairo.svg" alt="">
+            </a>
+            <a href="./report.html">
+                <img src="./../img/report.svg" alt="">
+                <span>Reportar</span>
+            </a>
+            <a href="./help.html">
+                <img src="./../img/help.svg" alt="">
+                <span>Ayuda</span>
+            </a>
             <img src="./../img/config.svg" alt="" class="config">
             <img src="./../img/noti.svg" alt="" class="noti">
             <img src="./../img/perfil.png" alt="" class="perfil">
@@ -40,10 +42,47 @@
     </header>
     <section class="Contenido">
         <div class="text1">
-            <h1>Panel de Indicadores</h1>
-                <p>Aqui puedes visualizar los indicadores propuestos y añadirlos por tu equipo de trabajo.</p>
+            <h1>Apartado de Ayuda</h1>
+            <p>En este aparatado podras enviar mirar o solicitar ayuda ante cualquier situacion que <br /> necesites. No
+                importa de que se trate, ¡estamos aqui para ayudar! <br />¡Envia una solicitud!</p>
         </div>
-
+        <div class="cuadroBuscador">
+            <div class="lupa">
+                <img src="./../img/lupa.png" alt="">
+            </div>
+            <button>Buscar</button>
+        </div>
+        <div class="text2">
+            <h1>Ponte en contacto con nosotros</h1>
+            <p>A nuestro amale equipo le encantaria <br />conectarse con usted.</p>
+        </div>
+        <form class="formulario">
+            <div class="grupo">
+                <label>Tu nombre:</label>
+                <input type="text" placeholder="Ingrese el indicador" required>
+            </div>
+            <div class="grupo" id="correo">
+                <label>Tu correo electronico:</label>
+                <input type="text" placeholder="Ingrese el indicador" required>
+            </div>
+            <div class="grupo" id="tele">
+                <label>Numero de telefono:</label>
+                <input type="text" placeholder="Ingrese el indicador" required>
+            </div>
+            <div class="grupo" id="indi">
+                <label>Descripción del indicador:</label>
+                <textarea placeholder="Descripción"></textarea>
+            </div>
+            <div class="listos">
+                <input type="checkbox" class="manejo">
+                <label>He leído las políticas de tratamiento de datos y estoy de acuerdo en compartir mi
+                    información.</label>
+            </div>
+        </form>
+        <div class="btn-delete">
+            <a href="">enviar</a>
+        </div>
     </section>
 </body>
+
 </html>

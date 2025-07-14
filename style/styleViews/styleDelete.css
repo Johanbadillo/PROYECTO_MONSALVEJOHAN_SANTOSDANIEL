@@ -155,14 +155,14 @@ header .perfil{
     gap: 1vw; 
 }
 
-.btn-add {
+.btn-delete {
     display: flex;
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 10vh;
 }
 
-.btn-add a {
+.btn-delete a {
     background-color: #ff7221;
     color: white;
     font-size: 1.5vw;
@@ -173,7 +173,7 @@ header .perfil{
     text-decoration: none;
 }
 
-.btn-add a:hover {
+.btn-delete a:hover {
     transform: translateY(-5px);
 }
 
