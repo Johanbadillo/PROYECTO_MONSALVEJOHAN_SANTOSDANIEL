@@ -59,39 +59,40 @@ header .perfil{
     height: auto;
 }
 
-main {
+.textoSuperior{
+    padding-left: 21vw;
+    margin-top: 8vh;
+}
+main{
     font-family: letraFuente;
     padding: 40px;
+    margin-top: 7vh;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 8vw;
     flex-wrap: wrap;
 }
 
-section {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-.contenidoPerfil {
+.contenidoPerfil{
     background-color: #eee;
-    padding: 30px;
+    padding: 3vw;
     border-radius: 15px;
     position: relative;
-    width: 40vw;
+    width: 35vw;
+    height: 35vh;
     box-sizing: border-box;
     text-align: center;
 }
 
 .contenidoPerfil .fotoPerfil{
     position: absolute;
-    top: -50px;
-    left: 20px;
+    top: -10vh;
+    left: 2vw;
     border: 4px solid #FF7221;
     border-radius: 50%;
     overflow: hidden;
-    width: 100px;
-    height: 100px;
+    width: 7.5vw;
+    height: 15vh;
     background-color: white;
 }
 
@@ -109,7 +110,8 @@ img{
 .datosPerfil{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    row-gap: 5vh;
+    column-gap: 2.5vw;
     margin-top: 20px;
     text-align: left;
 }
@@ -118,23 +120,27 @@ img{
     flex: 1 1 45%;
 }
 
-.datosPerfil div p{
+.datosPerfil p{
     font-family: letraLight;
 }
 
+.datosPerfil h3{
+    font-family: letraFuente;
+    font-weight: lighter;
+}
 .contenidoPerfil button{
-    margin-top: 30px;
+    margin-top: 4.3vh;
     background-color: #535353;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .contraseña{
     background-color: #eee;
-    padding: 30px;
+    padding: 5vh 1.5vw;
     border-radius: 15px;
     width: 400px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
@@ -148,7 +154,8 @@ img{
 .contraseña p{
     font-family: letraLight;
     text-align: center;
-    margin: 20px 0;
+    margin-top: 5vh;
+    margin-bottom: 7.9vh;
     color: #333;
 }
 
