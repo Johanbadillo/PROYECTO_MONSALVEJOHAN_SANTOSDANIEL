@@ -63,9 +63,10 @@ header a{
     color: black;
 }
 
-header .logo{
+header .perfil img{
     background-color: white;
-    text-align: center;
+    height: auto;
+    width: 3vw;
 }
 
 header .perfil{

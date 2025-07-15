@@ -69,9 +69,10 @@ header .logo {
     text-align: center;
 }
 
-header .perfil {
+header .perfil img{
     background-color: white;
     height: auto;
+    width: 3vw;
 }
 
 .text1 {
