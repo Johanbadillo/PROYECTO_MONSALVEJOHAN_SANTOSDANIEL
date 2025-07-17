@@ -31,7 +31,7 @@ body{
     position: relative;
     opacity: 0;
     top: 40vh;
-    animation: inicio2 6s ease;
+    animation: inicio2 4s ease;
 }
 
 .cuadroblanco{
@@ -139,7 +139,7 @@ body{
     padding: 20px;
     flex-direction: column;
     animation: inicio 4s;
-    opacity: 0;
+    opacity: 1;
 }
 
 
@@ -229,4 +229,9 @@ body{
     100%{
         opacity: 1;
     }
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
