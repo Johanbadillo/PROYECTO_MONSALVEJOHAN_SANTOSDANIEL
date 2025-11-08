@@ -59,9 +59,9 @@ graph TD
 
 | Tecnología     | Uso                              |
 |----------------|----------------------------------|
-| **MongoDB**         | Base de datos NoSQL para almacenar productos de anime           |
-| **JavaScript**      | Lógica del script: inserciones, actualizaciones, consultas y eliminaciones              |
-| **Mongo Shell**     | Entorno de ejecución interactivo para comandos MongoDB          |
+| **HTML5**         | Estructura semántica y accesiblee           |
+| **CSS3**      | Estilos, animaciones, transiciones, Flexbox/Grid            |
+| **Figma**     | Diseño UI/UX de alta fidelidad         |
 
 > *100% estático – sin dependencias externas*
 
@@ -122,7 +122,7 @@ open index.html
 
 <div align="center">
 
-**💖 Hecho con pasión por la educación digital 💖**  
+**💖 Hecho con estilo, sin una línea de JavaScript 💖**  
 **CampusLands • Cajasan • 2025**
 
 </div>
