@@ -81,3 +81,48 @@ open index.html
 ```
 
 > *Demo en vivo: [Ver Panel](https://johanbadillo.github.io/PROYECTO_MONSALVEJOHAN_SANTOSDANIEL/)*
+
+## 📁 Estructura del proyecto
+```
+📁 PROYECTO_MONSALVEJOHAN_SANTOSDANIE/
+├── 📁 fonts/
+├── 📁 img/
+├── 📁 style/
+│   ├── 📁 styleViews/
+│   └── style.css
+├── 📁 views/
+├── index.html
+├── inicio.html
+├── LICENSE
+└── README.md
+```
+
+## 📦 Entregables
+
+| 📁 Entregable | 🔗 Enlace |
+|------------|--------|
+| **Código Fuente** |  [GitHub](https://github.com/Johanbadillo/PROYECTO_MONSALVEJOHAN_SANTOSDANIEL) |
+| **Diseño UI/UX** |  [Ver figma](https://www.figma.com/design/UuZjHZ4iHRWyi73rXhp8IN/Untitled?node-id=0-1&p=f&t=PWKQJWaWzDBLVa4a-0) |
+| **Documentación** | Este archivo |
+
+---
+
+## 👥 Autores
+
+<div align="center">
+
+| 🧑‍💻 Nombre | 🎯 Rol | 🔗 GitHub |
+|--------|-----|--------|
+| **Johan Monsalve** | ⚙️ HTML & CSS | [@Johanbadillo](https://github.com/Johanbadillo) |
+| **Daniel Santos** | 📝 Diseño & Animaciones | [@DanielSantos](https://github.com/Daniel-Santos-F333) |
+
+</div>
+
+---
+
+<div align="center">
+
+**💖 Hecho con pasión por la educación digital 💖**  
+**CampusLands • Cajasan • 2025**
+
+</div>
